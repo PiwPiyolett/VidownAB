@@ -1,0 +1,14 @@
+# Build artefak (besar / hasil PyInstaller) — lampirkan sebagai GitHub Release, bukan di repo
+*.exe
+*.lnk
+build/
+dist/
+__pycache__/
+*.pyc
+
+# Konfigurasi lokal spesifik perangkat
+settings.json
+
+# Editor / tooling
+.claude/
+.vscode/
