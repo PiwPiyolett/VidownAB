@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🎬 VidownAB — AB Video Downloader
+# 🎬 VidownAB · AB Video Downloader
 
 **Aplikasi desktop untuk mengunduh video cukup dengan paste link.**
 
-Mendukung YouTube, TikTok, dan ratusan situs lain (via [yt-dlp](https://github.com/yt-dlp/yt-dlp)) — tersedia sebagai `.exe` mandiri, tanpa perlu membuka Python.
+Mendukung YouTube, TikTok, dan ratusan situs lain (via [yt-dlp](https://github.com/yt-dlp/yt-dlp)), tersedia sebagai `.exe` mandiri, tanpa perlu membuka Python.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![yt-dlp](https://img.shields.io/badge/engine-yt--dlp-FF0000?style=flat-square&logo=youtube&logoColor=white)
@@ -19,11 +19,11 @@ Mendukung YouTube, TikTok, dan ratusan situs lain (via [yt-dlp](https://github.c
 
 ## ✨ Fitur
 
-- 🔗 **Paste & unduh** — tempel link, thumbnail + judul + channel + durasi langsung muncul sebagai pratinjau.
-- 🎞️ **Video (MP4) atau Audio (MP3)** — pilih jenis dan kualitas sesuai kebutuhan.
-- 🌐 **Ratusan situs** — YouTube, TikTok, dan banyak lagi lewat mesin yt-dlp.
-- 📊 **Progress bar animatif** — indikator unduhan dengan animasi shimmer.
-- 📦 **`.exe` mandiri** — dibundel dengan PyInstaller, pengguna tidak perlu memasang Python.
+- 🔗 **Paste & unduh**, tempel link, thumbnail + judul + channel + durasi langsung muncul sebagai pratinjau.
+- 🎞️ **Video (MP4) atau Audio (MP3)**, pilih jenis dan kualitas sesuai kebutuhan.
+- 🌐 **Ratusan situs**, YouTube, TikTok, dan banyak lagi lewat mesin yt-dlp.
+- 📊 **Progress bar animatif**, indikator unduhan dengan animasi shimmer.
+- 📦 **`.exe` mandiri**, dibundel dengan PyInstaller, pengguna tidak perlu memasang Python.
 
 ## 🛠️ Tech Stack
 
@@ -50,7 +50,7 @@ pip install pyinstaller
 pyinstaller "AB Video Downloader.spec"
 ```
 
-> File `.exe` hasil build (± 75 MB) sengaja **tidak** disertakan di repo agar ringan — silakan build sendiri, atau ambil dari halaman **Releases** bila tersedia.
+> File `.exe` hasil build (± 75 MB) sengaja **tidak** disertakan di repo agar ringan, silakan build sendiri, atau ambil dari halaman **Releases** bila tersedia.
 
 ---
 
